@@ -23,6 +23,7 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
+
 }
 
 #top_header {
@@ -153,7 +154,7 @@ header {
 .view_more {
   float: right;
   font-size: .8em;
-  margin: .75 3.5% 0;
+  margin: .75 3.5em 0;
 }
 
 #top_movies h2, #top_shows h2, .view_more{
@@ -210,7 +211,7 @@ header {
 
 input{
   width: 48%;
-  margin 0 0.5%;
+  margin: 0;
   height: 3.25em;
   border: none;
   outline: none;
