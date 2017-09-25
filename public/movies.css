@@ -53,6 +53,10 @@ span{
   margin-left: 1em;
 }
 
+.menu{
+  display: none;
+}
+
 #banner {
   background-image: url('https://33hpwq10j9luq8gl43e62q4e-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/Despicable-Me-3.jpg');
   background-repeat: no-repeat;
@@ -258,4 +262,100 @@ input{
   font-size: .75em;
   text-decoration: none;
   margin: 0 .5em;
+}
+
+@media only screen and (max-width: 768px) {
+  #main_nav{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main_nav.active{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #main_nav.active a{
+    display: block;
+    padding: 1em 0;
+    border-bottom: 1px solid #E9E9E9;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    display: block;
+    float: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  i{
+    font-size: 1.5em;
+    color: #252529;
+    padding-top: .6em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #banner {
+    padding: 3.5em 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #poster {
+    width: 250px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .play_button {
+    width: 60px;
+    margin: -30px 0 0 -30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #content {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #content .title {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ratings i {
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .description{
+    font-size: .9em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .info { 
+    font-size: .7em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .info span{
+    margin: 0 .25em;
+  }
 }
