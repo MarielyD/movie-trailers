@@ -197,10 +197,12 @@ header {
   padding: 5em 0;
   text-align: center;
   background: #2a2a2e;
+
 }
 
 .newsletter_inner{
   width: 600px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -348,7 +350,7 @@ input{
 }
 
 @media only screen and (max-width: 768px) {
-  .info { 
+  .info {
     font-size: .7em;
     margin-top: 2em;
   }
@@ -357,5 +359,128 @@ input{
 @media only screen and (max-width: 768px) {
   .info span{
     margin: 0 .25em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #top_movies, #top_shows  {
+    padding: 3em 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 0 0 1.5em 1.25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #top_movies h2, #top_shows h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .view_more {
+    margin: .75 2.25% 0 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .post {
+    width: 30.6%;
+    margin: 0 1.25% 2em 1.25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .title {
+    font-size: 1em;
+    margin: .5em 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .post_info {
+    font-size: .65em;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #banner, #banner_content_wrapper {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #poster {
+    width: 250px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #content {
+    width: 100%;
+    margin: 1em auto 0 auto;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .post {
+    width: 250px;
+    margin: 0 auto 2em auto;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .description, .info {
+    color: #8b8b9f;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .info {
+    padding-bottom: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #top_movies header, #top_shows header {
+    margin-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #newsletter{
+    padding: 3em 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #newsletter h2 {
+    font-size: 1.35em;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .sign_up_form{
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  input {
+    width: 90%;
+    margin: 0 0 1em 0;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .button {
+    margin-top: 2em;
   }
 }
